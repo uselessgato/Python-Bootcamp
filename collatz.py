@@ -2,5 +2,7 @@ def collatz(number):
     if number == 1:
         return 1
     elif number % 2 == 0:
-        
+        print number/2
+        return number/2
+    else number
     
