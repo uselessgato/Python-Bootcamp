@@ -15,5 +15,7 @@ def execute():
             int(number)
         except:
             print('Please provide an integer.')
-          continue
-    
+            continue
+        break
+        
+    while num
