@@ -1,3 +1,4 @@
 def collatz(number):
-    if number is not 1:
+    if number == 1:
+        return 1
     
