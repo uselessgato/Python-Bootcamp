@@ -9,9 +9,11 @@ def collatz(number):
         return 3*number+1
         
 def execute():
-    number = input('What is your number?: ')
-    try:
-        int(number)
-    except:
-        print(''
+    while True:
+        number = input('What is your number?: ')
+        try:
+            int(number)
+        except:
+            print('Please provide an integer.')
+          continue
     
