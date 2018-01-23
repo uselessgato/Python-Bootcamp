@@ -1,5 +1,6 @@
 def collatz(number):
     if number == 1:
+        print '1'
         return 1
     elif number % 2 == 0:
         print number/2
@@ -18,4 +19,5 @@ def execute():
             continue
         break
         
-    while num
+    while number is not 1:
+        number = collatz(number)
